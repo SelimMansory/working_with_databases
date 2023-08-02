@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "working-with-databases"
+version = "0.1.0"
+description = ""
+authors = ["Deadmau5"]
+readme = "README.md"
+packages = [{include = "working_with_databases"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+psycopg2 = "^2.9.6"
+anyio = "^3.7.1"
+certifi = "^2023.7.22"
+httpcore = "^0.17.3"
+httpx = "^0.24.1"
+psycopg2-binary = "^2.9.6"
+idna = "^3.4"
+sniffio = "^1.3.0"
+ujson = "^5.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
